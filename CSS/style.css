@@ -1,0 +1,456 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  scroll-behavior: smooth;
+
+}
+
+
+#intro {
+  background-image: url("/imgs/logo-7-\ .jpg");
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 2px;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  min-height: 600px;
+  /* display: block; */
+
+
+}
+
+
+.text-aboutme {
+
+  padding: 5% 10%;
+  max-width: 100%;
+  background: #c5c1af;
+  /* padding: 100px 200px; */
+  width: 100%;
+  /* min-width: 100vh; */
+  display: flex;
+  align-items: center;
+  /* text-align: center; */
+
+}
+
+a {
+  text-decoration: none;
+  color: #93462e;
+
+}
+
+.social-icons a {
+  color: #93462e;
+  font-size: 1.7em;
+  padding-right: 30px;
+  transition: 0.7s ease;
+
+}
+
+.social-icons :hover {
+  transform: scale(1.1);
+
+}
+
+
+/* #about-me {
+  text-align: center;
+
+} */
+
+#about-me h1 {
+  color: rgba(255, 255, 255, 0.681);
+  display: flex;
+  justify-content: center;
+  font-weight: 800;
+  font-size: 2.9em;
+  /* margin-top: 60px; */
+  margin-bottom: 4px;
+}
+
+#about-me h4 {
+  color: rgba(255, 255, 255, 0.681);
+  margin: 30px auto;
+  font-size: 40px;
+  margin-right: 10px;
+
+
+}
+
+#about-me h2 {
+  color: #907651;
+  font-weight: bold;
+}
+
+/* هنا لتوسيط البارقراف  */
+#about-me p {
+  color: #092206;
+  padding: 4px;
+  padding-bottom: 1px;
+  font-size: 20px;
+  max-width: 650px;
+  margin: 0.6px;
+
+
+}
+
+
+
+
+body {
+
+  background: #faeedf;
+
+
+
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(64deg, rgb(206, 181, 146) 21%, rgb(217, 222, 206) 100%);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(64deg, rgb(206, 181, 146) 21%, rgb(217, 222, 206) 100%)
+}
+
+
+
+
+
+
+/*Start navbar*/
+.navbar {
+  background-color: #f5efdf;
+
+}
+
+.nav-link {
+  font-size: 17px;
+  color: #827f78;
+}
+
+.navbar-nav .nav-link.active {
+  color: #734D41;
+  font-weight: bold;
+
+}
+
+.navbar .navbar-nav .nav-link:hover,
+.navbar .navbar-nav .nav-link:focus,
+.navbar-brand:hover {
+  color: rgb(255, 255, 255);
+
+}
+
+/* nav background */
+
+.container-fluid {
+  float: left;
+  background-color: #e8e3d5;
+  display: block;
+  padding: 28px;
+  /* margin-block: 1%; */
+
+}
+
+.navbar-brand {
+  float: left;
+  display: block;
+  width: 70%;
+  margin-top: 0px;
+  margin-right: 2px;
+  font-weight: bold;
+  font-size: xx-large;
+  color: #907651;
+}
+
+.navbar .navbar-toggler {
+  color: aliceblue;
+  font-size: 25px;
+}
+
+
+
+
+/*start section Education*/
+.title-Education {
+  display: flex;
+  justify-content: center;
+  color: #93462e;
+  font-weight: 800;
+  font-size: 2.2em;
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+}
+
+.education-card {
+  background-color: #ffffffb8;
+  width: 21.25em;
+  box-shadow: 0 5px 25px rgb(206, 181, 146);
+  border-radius: 10px;
+  padding: 25px;
+  margin: 15px;
+  transition: 0.7s ease;
+}
+
+.education-card:hover {
+  transform: scale(1.1);
+}
+
+.icon {
+  color: #827f78;
+  font-size: 8em;
+  text-align: center;
+}
+
+.info-education {
+  text-align: center;
+}
+
+.info-education h3 {
+  color: #907651;
+  font-size: 1.2em;
+  font-weight: 700;
+  margin: 10px;
+
+}
+
+/* end stylee education */
+
+.title-Certificates {
+  display: flex;
+  justify-content: center;
+  color: #93462e;
+  font-weight: 800;
+  font-size: 2.2em;
+  margin-top: 60px;
+  margin-bottom: 70px;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  color: #93462e;
+  font-weight: 800;
+  font-size: 2.2em;
+  margin-top: 60px;
+  margin-bottom: 70px;
+}
+
+
+
+
+.col {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+
+}
+
+
+.card-text {
+  font-size: 1em;
+  color: #514e47;
+  font-weight: 700;
+  margin: 12px;
+}
+
+.card-title {
+  color: #734D41;
+  font-size: 1.2em;
+  font-weight: 700;
+  text-align: center;
+  margin: 18px;
+}
+
+
+.education-content {
+  padding: 4px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  margin-left: 0px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+}
+
+#Certificates {
+  margin: 40px;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+}
+
+/*  page 2 Projects */
+
+
+.Projects .content {
+  margin-top: 30px;
+
+}
+
+.project-card {
+  background-color: #beb7a4;
+  border: 1px solid white;
+  min-height: 14em;
+  width: 23em;
+  overflow: hidden;
+  border-radius: 10px;
+  margin: 20px;
+  transition: 0.7s ease;
+}
+
+.project-card:hover {
+  transform: scale(1.1);
+}
+
+.project-image img {
+  width: 100%;
+
+}
+
+
+
+.project-card:hover .project-image {
+  opacity: 0.6;
+}
+
+.project-info {
+  padding: 1em;
+}
+
+.project-description {
+  font-size: 0.8em;
+  color: #ffffff;
+}
+
+.project-title {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 800;
+  margin-top: 10px;
+
+}
+
+.show-project {
+  text-decoration: none;
+  color: #695f51;
+}
+
+.show-project:hover {
+  color: #efe3d3;
+}
+
+.project-title span {
+  color: #93462e;
+  font-weight: bold;
+}
+
+.footer {
+  background-color: #e8e3d5;
+  color: #907651;
+  padding: 2em;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-title {
+  font-size: 1em;
+  font-weight: 600;
+}
+
+.footer-title span {
+  color: #4f413d;
+  flex-wrap: nowrap;
+}
+
+.footer .social-icons a {
+  font-size: 1.22em;
+  padding: 0 15px 0 0;
+  flex-wrap: nowrap;
+}
+
+@media (max-width: 768px) {
+
+  /* CSS rules for screens up to 768px wide */
+  body {
+    font-size: 16px;
+  }
+
+  #about-me h1 {
+    font-size: 2em;
+  }
+
+  #intro {
+    min-height: 508px;
+  }
+}
+
+@media (max-width: 992px) {
+  body {
+    /* Adjust font sizes, margins, or padding for larger tablets and small desktops */
+    font-size: 12px;
+  }
+
+  /* Additional CSS rules specific to screens up to 992px wide */
+  /* You can modify styles for various sections as needed */
+  #about-me h1 {
+    font-size: 2.2em;
+  }
+
+  #intro {
+    min-height: 600px;
+  }
+
+
+  /* .title {
+    font-size: 1.8em;
+  }
+
+
+  section {
+    padding: 88px 20px;
+  }
+
+  .content {
+    flex-direction: column;
+    align-items: center;
+  } */
+
+}
+
+@media (max-width: 576px) {
+  body {
+    /* font-size: 1.0em; */
+    font-size: 14px;
+
+  }
+
+  #intro {
+    /* min-height: 935px; */
+    /* min-height: 385px; */
+    min-height: 545px;
+
+
+    /* min-height: 200px; */
+  }
+
+  .text-aboutme {
+    width: 100%;
+  }
+
+
+
+}
